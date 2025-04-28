@@ -1,7 +1,7 @@
 # flow-based-diff-gaussian-rasterization
 A differentiable rasterization method based on optical flow, referring to Gaussian-Flow, has been modified.
 
-This repo contains the cuda implementation of variables for calculating Gaussian flow (both forward and backward). While the original repo of 3D Gaussian Splatting is [here](https://github.com/graphdeco-inria/diff-gaussian-rasterization) and Flow-based 3DGS is [here](Zerg-Overmind/diff-gaussian-rasterization:main). 
+This repo contains the cuda implementation of variables for calculating Gaussian flow (both forward and backward). While the original repo of 3D Gaussian Splatting is [here](https://github.com/graphdeco-inria/diff-gaussian-rasterization) and Flow-based 3DGS is [here](https://github.com/Zerg-Overmind/diff-gaussian-rasterization). 
 
 ## Install
 ```bash
@@ -26,4 +26,4 @@ Where `proj_means_2D` are the coordinates of Gaussians in image plane, `conic_2D
 
 Feel free to change `K` from 20 (as in the paper) to another value by modifying [here](https://github.com/Zerg-Overmind/diff-gaussian-rasterization/blob/main/rasterize_points.cu#L64) and [here](https://github.com/Zerg-Overmind/diff-gaussian-rasterization/blob/main/cuda_rasterizer/forward.cu#L386). 
 
-**Acknowledgments**: We thank the following great works [DreamGaussian](https://github.com/dreamgaussian/dreamgaussian), [DreamGaussian4D](https://github.com/jiawei-ren/dreamgaussian4d), [Consistent4D](https://github.com/yanqinJiang/Consistent4D), [RT-4DGS](https://github.com/fudan-zvg/4d-gaussian-splatting), [Dynamic3DGaussians](https://github.com/JonathonLuiten/Dynamic3DGaussians), and [3DGS](https://github.com/graphdeco-inria/diff-gaussian-rasterization) for their codes.
+**Acknowledgments**: We thank the following great works [GaussianFlow](https://github.com/Zerg-Overmind/diff-gaussian-rasterization), [DreamGaussian](https://github.com/dreamgaussian/dreamgaussian), [DreamGaussian4D](https://github.com/jiawei-ren/dreamgaussian4d), [Consistent4D](https://github.com/yanqinJiang/Consistent4D), [RT-4DGS](https://github.com/fudan-zvg/4d-gaussian-splatting), [Dynamic3DGaussians](https://github.com/JonathonLuiten/Dynamic3DGaussians), and [3DGS](https://github.com/graphdeco-inria/diff-gaussian-rasterization) for their codes.
