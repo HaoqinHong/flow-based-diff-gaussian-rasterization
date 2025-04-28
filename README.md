@@ -5,7 +5,7 @@ This repo contains the cuda implementation of variables for calculating Gaussian
 
 ## Install
 ```bash
-git clone --recursive https://github.com/HaoqinHong/flow-based-diff-gaussian-rasterization
+git clone git@github.com:HaoqinHong/flow-based-diff-gaussian-rasterization.git --recursive
 pip install ./flow-based-diff-gaussian-rasterization
 ```
 
