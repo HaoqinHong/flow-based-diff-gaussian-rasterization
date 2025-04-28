@@ -1,10 +1,12 @@
-# diff-gaussian-rasterization
+# flow-based-diff-gaussian-rasterization
+A differentiable rasterization method based on optical flow, referring to Gaussian-Flow, has been modified.
+
 This repo contains the cuda implementation of variables for calculating Gaussian flow (both forward and backward). While the original repo of 3D Gaussian Splatting is [here](https://github.com/graphdeco-inria/diff-gaussian-rasterization). 
 
 ## Install
 ```bash
-git clone --recursive https://github.com/Zerg-Overmind/diff-gaussian-rasterization
-pip install ./diff-gaussian-rasterization
+git clone --recursive https://github.com/HaoqinHong/flow-based-diff-gaussian-rasterization
+pip install ./flow-based-diff-gaussian-rasterization
 ```
 
 ## Function
